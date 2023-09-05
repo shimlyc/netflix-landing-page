@@ -1,0 +1,344 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.parent{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./netfli.jpg'); 
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.aa{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 140px;
+    padding-left: 200px;
+    margin:30px;
+    
+    
+    
+    
+    
+    
+}
+.logo1{
+ padding-right: 200px;
+ padding-top: 50px;
+ border: none;
+ 
+
+}
+.logo3{
+    background-color: red;
+    color: white;
+    padding-left: 1rem;
+    border-radius: 3px;
+    padding-right: 1rem;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+
+}
+.logo2{
+    background-color: transparent;
+    color: white;
+    padding-left: 1rem;
+    border-radius: 3px;
+    padding-right: 1rem;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+    border: 1px solid;
+    margin-right: 10px;
+
+}
+.heading{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+    font-weight: bold;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.heading2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    line-height: normal;
+    
+}
+.heading3{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    font-weight: lighter;
+    line-height: normal;
+
+}
+.input{
+    font-size: 20px;
+    padding-left: 500px;
+}
+.btn{
+    background-color: red;
+    font-size: 25px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.email{
+    background-color: transparent;
+    padding-top: 6px;
+    font-size: 15px;
+    padding-right: 90px;
+    color: white;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    background-color: rgba(0, 0, 0, 0.577);
+
+}
+.div1{
+    line-height: 2.1;
+
+    
+}
+.div{
+    height: 10px;
+    width:100%;
+    background-color: rgb(77, 72, 72);
+}
+.newdiv1{
+    height: 700px;
+    background-color: black;
+    color: white;
+    padding-left: 170px;
+    padding-top: 170px;
+    display: flex;
+    
+
+}
+.headingnew{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.7;
+    align-items: start;
+    padding-right: 200px;
+}
+.para{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: start;
+    
+
+}
+.new{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 60%;
+    margin-right: 2rem;
+    justify-content: center;
+    
+}
+.thirdpage{
+    background-color: black;
+    border-top: 9px solid;
+    border-color: rgb(51, 47, 47);
+    height:700px;
+    display: flex;
+}
+.image1{
+    height:500px ;
+    padding-top: 80px;
+    padding-left: 200px;
+
+}
+.thirdheading{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    
+    
+    
+}
+.full{
+    padding-top: 150px;
+    margin-left: 50px;
+    /* margin-right: ; */
+    
+    
+}
+.para3{
+    color: white;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.fourthpage{
+    background-color: black;
+    border-top: 9px solid;
+    border-color: rgb(51, 47, 47);
+    height:700px;
+    display: flex;
+    justify-content: space-between;
+}
+.framenew{
+    margin-left: 80px;
+    padding-top: 120px;
+    width: 500px;
+    margin-right: 100px;
+    
+    
+ 
+}
+.ing{
+    color: white;
+    font-size: 65px;
+    font-weight:bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+
+}
+.graph{
+    color: white;
+    font-size: 25px;
+    
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.both{
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.fifthpage{
+    background-color: black;
+    border-top: 9px solid;
+    border-color: rgb(51, 47, 47);
+    height:700px;
+    display: flex;
+}
+.imagenew{
+    margin-left: 150px;
+    margin-top: 100px;
+    width:550px;
+}
+.kids{
+    color: white;
+    font-size: 50px;
+    font-weight:bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    
+    
+ 
+}
+.enjoy{
+    color: white;
+    font-size: 23px;
+
+    font-family:sans-serif;
+}
+.both2{
+    margin-left: 50px;
+    margin-top: 200px;
+    
+}
+.sixthpage{
+    background-color: black;
+    border-top: 9px solid;
+    border-color: rgb(51, 47, 47);
+    height:550px;
+    display: flex;
+    padding-right: 20rem;
+    font-size: 15px;
+    
+    
+}
+.last{
+    color: white;
+    
+    line-height: 2.3;
+    padding-left: 200px;
+    padding-top: 100px;
+
+    
+}
+.last p{
+    text-decoration: underline;
+}
+.lasthead{
+    line-height: 4.0;
+}
+.last1{
+    color: white;
+    text-decoration: underline;
+    line-height: 2.3;
+    padding-left: 200px;
+    padding-top: 170px;
+}
+.last2{
+    color: white;
+    text-decoration: underline;
+    line-height: 2.3;
+    padding-left: 200px;
+    padding-top: 170px;
+}
+.english{
+    background-color: transparent;
+    color: white;
+    padding-left: 1rem;
+    border-radius: 3px;
+    padding-right: 1rem;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-top: 20px;
+    
+}
+#newpara{
+    line-height: 4.9;
+    text-decoration: none;
+    
+
+}
+
+    
+    
+    
+
+/* 
+
+
+linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)
+    ), 
+    url('./netfli.jpg'); 
+
+
+
+
+*/
